@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color:#FFFFFF;
+}
+
+.center{
+    padding-left: calc(50% - 544px);
+    padding-right: calc(50% - 544px);
+}
+
+.header{
+    margin-top: 40px;
+    margin-bottom: 94px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+    
+
+.logo_text{
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 5px;
+    margin-right: 500px;
+    margin-left: 14px;
+   
+}
+.menu_text{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+    color:  #F25822;
+    padding-top: 11px;
+    display: flex; 
+}
+
+.content{
+    display: flex;
+    flex-direction: row; 
+}
+
+.heading {
+    font-family: 'Gilroy-Bold';
+    width: 522px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.text_content {
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-bottom: 37px;
+    width: 460px;
+}
+
+.button_box{
+    margin-top: 37px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: row;
+    
+}
+
+.index_button {
+    font-family: 'Gilroy-Bold';
+    padding: 15px 36px 16px 35px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    margin-right: 72px;
+   
+}
+
+.content_text{
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.footer {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
